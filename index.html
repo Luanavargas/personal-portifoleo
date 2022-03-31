@@ -1,40 +1,176 @@
-
 <html>
-    <head>
-        <link rel="stylesheet" href="./style.css">
-        <meta name="viewport" content="width=device-width"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;900&display=swap" rel="stylesheet">
-    </head>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;600;900&display=swap" rel="stylesheet">
+</head>
 
 
-    <body class="bg-header">
-        <header class="bg-header py-50 position-fixed"> 
-            <nav class="nav-bar flex flex-row container justify-between font-kanit font-color-purple">
-                <div>
-                    <a class="fs-36 mx-20" href="#">LV</a>
-                </div>
-                <div class="align-center">
-                    <a class="header-buttom" href="#">About Me</a>
-                    <a class="header-buttom mx-20" href="#">Projects</a>
-                </div>
-            </nav>
-        </header>
-            
-        <main>
-            <div class="flex flex-row h-100vh container bg-white ">
-                <div class="w-50 align-center pl-150 font-kanit font-color-purple"> 
-                    <p class="lh-40 fs-24">Hello, I'm</p>
-                    <p class="lh-40 fs-36 fw-900">Luana Vargas</p>
-                    <p class="lh-40 fs-24">Front-End Junior Developer</p>
-                </div>
-                <div class="w-50 align-end">
-                    <img class="img-office" src="./assets/img-office.jpg" alt="">
+<body>
+    <header class="bg-beige py-20 position-fixed">
+        <nav class="nav-bar flex flex-row container justify-between font-kanit font-color-purple">
+            <div>
+                <a class="fs-36 mx-20 color-purple" href="#wellcome">LV</a>
+            </div>
+            <div class="align-center">
+                <a class="header-buttom" href="#about-me">About Me</a>
+                <a class="header-buttom mx-20" href="#projects">Projects</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="wellcome">
+            <div class="bg-img">
+                <div class="flex h-100vh container">
+                    <div class="align-center font-kanit color-purple">
+                        <p class="lh-40 fs-24">Hello, I'm</p>
+                        <p class="lh-40 fs-36 fw-900">Luana Vargas</p>
+                        <p class="lh-40 fs-24">Front-End Junior Developer</p>
+                        <div class="py-20">
+                            <a href="https://github.com/Luanavargas"><i
+                                    class="fa-brands fa-github social-buttom"></i></a>
+                            <a href="https://www.linkedin.com/in/luana-vargas-479683145/"><i
+                                    class="fa-brands fa-linkedin-in social-buttom ml-20"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </main>
+        </section>
 
-    </body>
+        <section class="bg-beige" id="about-me">
+            <div class="flex font-kanit w-40 color-purple container h-100vh">
+                <div class="border-left h-40 align-center">
+                    <h1 class="pl-20 fs-36 mb-50">
+                        &lt;About Me /&gt;
+                    </h1>
+                    <p class="pl-20 fs-24 pb-20">My Name is Luana, I'm 32 years old, I live in Brazil. </p>
+                    <p class="pl-20 fs-24">I started my Front End studies in February of this year (2022) and I dedicate
+                        myself at all times
+                        in my free time. I know there is a long way to go, and I intend to walk it with dedication.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="bg-white">
+
+            <div class="container py-150">
+                <div class=" font-kanit color-purple text-center">
+                    <h1 class="fs-36 justify-center">
+                        &lt; Projects /&gt;
+                            </Projects>
+                    </h1>
+                </div>
+
+                <div class="flex flex-row flex-column font-kanit color-white">
+
+                    <div class="w-1-3 px-20 project-card">
+                        <h3 class="fs-20 fw-600 py-20">Tribute Page</h3>
+                        <p class="fw-200 fs-16">Projeto usando Html/Css para realizar o desafio do FreeCodeCamp</p>
+                        <div class="text-center py-20">
+                            <img class="img-project-card" src="./assets/Tribute-page.png" alt="">
+                        </div>
+                        <div class="text-center my-10">
+                            <a class="project-buttom color-dark-p" href="https://luanavargas.github.io/tribute-page/">
+                                <i class="fa-solid fa-link color-dark-p"></i>Website
+                            </a>
+                            <a class="project-buttom color-dark-p ml-30" href="https://github.com/Luanavargas/tribute-page">
+                                <i class="fa-brands fa-github color-dark-p"></i>GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="w-1-3 px-20 project-card mx-40">
+                        <h3 class="fs-20 fw-600 py-20">Survey Form</h3>
+                        <p class="fw-200 fs-16">Projeto usando Html/Css para realizar o desafio do FreeCodeCamp</p>
+                        <div class="text-center py-20">
+                            <img class="img-project-card" src="./assets/Survey-form.png" alt="">
+                        </div>
+                        <div class="text-center my-10">
+                            <a class="project-buttom color-dark-p" href="https://luanavargas.github.io/survey-form/">
+                                <i class="fa-solid fa-link color-dark-p"></i>Website
+                            </a>
+                            <a class="project-buttom color-dark-p ml-30" href="https://github.com/Luanavargas/survey-form">
+                                <i class="fa-brands fa-github color-dark-p"></i>GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="w-1-3 px-20 project-card">
+                        <h3 class="fs-20 fw-600 py-20">Landing Page</h3>
+                        <p class="fw-200 fs-16">Projeto usando Html/Css para realizar o desafio do FreeCodeCamp</p>
+                        <div class="text-center py-20">
+                            <img class="img-project-card" src="./assets/Landing-page.png" alt="">
+                        </div>
+                        <div class="text-center my-10">
+                            <a class="project-buttom color-dark-p" href="https://luanavargas.github.io/fcc-landing-page/">
+                                <i class="fa-solid fa-link color-dark-p"></i>Website
+                            </a>
+                            <a class="project-buttom color-dark-p ml-30" href="https://github.com/Luanavargas/fcc-landing-page">
+                                <i class="fa-brands fa-github color-dark-p"></i>GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-row flex-column font-kanit color-white">
+
+                    <div class="w-1-3 px-20 project-card">
+                        <h3 class="fs-20 fw-600 py-20">Documentation Page</h3>
+                        <p class="fw-200 fs-16">Projeto usando Html/Css para realizar o desafio do FreeCodeCamp</p>
+                        <div class="text-center py-20">
+                            <img class="img-project-card" src="./assets/Documentation-page.png" alt="">
+                        </div>
+                        <div class="text-center my-10">
+                            <a class="project-buttom color-dark-p" href="https://luanavargas.github.io/fcc-documentation-page/">
+                                <i class="fa-solid fa-link color-dark-p"></i>Website
+                            </a>
+                            <a class="project-buttom color-dark-p ml-30" href="https://github.com/Luanavargas/fcc-documentation-page">
+                                <i class="fa-brands fa-github color-dark-p"></i>GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="w-1-3 px-20 project-card mx-40">
+                        <h3 class="fs-20 fw-600 py-20">Personal Portifoleo</h3>
+                        <p class="fw-200 fs-16">Projeto usando Html/Css para realizar o desafio do FreeCodeCamp</p>
+                        <div class="text-center py-20">
+                            <img class="img-project-card" src="./assets/Personal-portifoleo.png" alt="">
+                        </div>
+                        <div class="text-center my-10">
+                            <a class="project-buttom color-dark-p" href="https://luanavargas.github.io/survey-form/">
+                                <i class="fa-solid fa-link color-dark-p"></i>Website
+                            </a>
+                            <a class="project-buttom color-dark-p ml-30" href="https://github.com/Luanavargas/survey-form">
+                                <i class="fa-brands fa-github color-dark-p"></i>GitHub
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+        </div>
+    </main>
+
+    <footer class="bg-beige py-50">
+        <div class="container text-center">
+            <a  href="https://github.com/Luanavargas"><i
+                class="fa-brands fa-github social-buttom"></i></a>
+            <a class="mx-50" href="https://www.linkedin.com/in/luana-vargas-479683145/"><i
+                class="fa-brands fa-linkedin-in social-buttom"></i></a>
+            <a href="https://www.instagram.com/luanapsvargas/">
+                <i class="fa-brands fa-instagram social-buttom"></i></a>
+        </div>
+    </footer>
+</body>
 
 </html>

@@ -8,9 +8,58 @@
     padding: 0;
 }
 
-.position-fixed {
-    position: fixed;
-    width: 100%;
+a {
+    text-decoration: none;
+}
+
+.align-center {
+    align-self: center;
+}
+
+.align-end {
+    align-self:flex-end;
+}
+
+.bg-beige {
+    background-color: #f5edeb;
+}
+
+.bg-purple {
+    background-color: #967b9c;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-img {
+    background-image: url("./assets/img-office.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.border-left {
+    border-left:3px solid  #967b9c;
+}
+
+.color-purple {
+    color: #967b9c;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.color-dark-p {
+    color: #645984;
+}
+
+.container {
+    margin: auto;
+    max-width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .flex {
@@ -25,78 +74,28 @@
     flex-direction: row;
 }
 
-.img-office {
-    max-width: 100%;
-}
-
-.w-50 {
-    width: 50%;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.justify-center {
-    justify-content: center
-    ;
-}
-
-.align-center {
-    align-self: center;
-}
-
-.align-end {
-    align-self:flex-end;
-}
-
-.h-100vh {
-    height: 100vh;
-}
-
-.container {
-    margin: auto;
-    max-width: 80%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.bg-header {
-    background-color: #f5edeb;
-}
-
-.bg-white {
-    background-color: white;
-}
-
-.pl-150 {
-    padding-left: 150px;
-}
-
-.py-50 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.header-buttom {
-    padding: 10px;
-    border: 3px solid #c9aaba;
-}
-
-a {
-    text-decoration: none;
-}
-
 .font-kanit {
     font-family: 'Kanit', sans-serif;
 }
 
-.font-color-purple {
-    color: #967b9c;
-}
-
 .fw-900 {
     font-weight: 900;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-20 {
+    font-size: 20px;
 }
 
 .fs-24 {
@@ -107,15 +106,148 @@ a {
     font-size: 36px;
 }
 
-.lh-40 {
-    line-height: 40px;
+.h-100vh {
+    height: 100vh;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.header-buttom {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #c9aaba;
+    color: #645984;
+}
+
+.img-office {
+    max-width: 100%;
+}
+
+.img-project-card {
+    width: 90%;
 }
 
 .justify-between {
     justify-content: space-between;
 }
 
+
+.lh-40 {
+    line-height: 40px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
 .mx-20 {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.mx-40 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.mx-50 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mb-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pl-20 {
+    padding-left: 50px;
+}
+
+.py-150 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.px-30 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.position-fixed {
+    position: fixed;
+    width: 100%;
+}
+
+.project-card {
+    background-color: #967b9c;
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.project-buttom {
+    background-color: #f5edeb;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.social-buttom {
+    border-radius: 50%;
+    background-color: #967b9c;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-1-3 {
+    width: 33%;
 }
